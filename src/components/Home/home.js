@@ -17,11 +17,11 @@ function Home() {
                 </nav>
             </div>
             <div className={styles.typewriter}>
-                <p>PIAIC is Established href</p>
+                <p>PIAIC is Established to</p>
                 <Typewriter
                     options={{
                         strings: ["empower youth", "make Pakistan Technologies hub", "make a unicorn software company"],
-                        auhrefStart: true,
+                        autoStart: true,
                         loop: true,
                         cursorClassName: "Typewriter__cursor"
                     }}
