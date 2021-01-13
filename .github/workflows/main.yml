@@ -18,16 +18,16 @@ jobs:
         with:
           version: 12
 
-      - name: Installing yarn 
+      - name: Installing yarn
         uses: Borales/actions-yarn@v2.3.0
         with:
           cmd: install
           
-      - name: Creating build
+      - name: Creating Build
         run: yarn build
-        
+      
       - name: Installing Surge
-        run: npm install --global surge
-        
+        run: npm install -g surge
+      
       - name: Deploying on Surge
-        run: surge ./build a-tiny-short-animation-app.surge.sh --token$ {{ secrets.SURGE_TOKEN }}
+        run: surge ./build a-tiny-short-animation-app.surge.sh --token ${{ secrets.SURGE_TOKEN }}
