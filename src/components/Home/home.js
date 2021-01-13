@@ -9,19 +9,19 @@ function Home() {
             <div className={styles.nav}>
                 <nav>
                     <ul>
-                        <li><a to="/">Home</a></li>
-                        <li><a to="courses">Courses</a></li>
-                        <li><a to="about">About</a></li>
-                        <li><a to="contact">Contact</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/courses">Courses</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
             <div className={styles.typewriter}>
-                <p>PIAIC is Established to</p>
+                <p>PIAIC is Established href</p>
                 <Typewriter
                     options={{
                         strings: ["empower youth", "make Pakistan Technologies hub", "make a unicorn software company"],
-                        autoStart: true,
+                        auhrefStart: true,
                         loop: true,
                         cursorClassName: "Typewriter__cursor"
                     }}
