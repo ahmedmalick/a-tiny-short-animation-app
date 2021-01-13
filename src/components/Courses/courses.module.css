@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.mainheading{
+    text-align: center;
+    font-size: 200%;
+    font-family: cursive;
+}
+
+.heading1{
+    width: 250px;
+    height: 180px;
+    text-align: center;
+    font-family: cursive;
+    border-top: 40px solid #192a56;
+    color: #192a56;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px 0 rgba(0,0,0,.16);
+}
+
+.heading2{
+    width: 250px;
+    height: 180px;
+    text-align: center;
+    font-family: cursive;
+    border-top: 40px solid #E1006A;
+    color: #E1006A;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px 0 rgba(0,0,0,.16);
+}
+
+.heading3{
+    width: 250px;
+    height: 180px;
+    text-align: center;
+    font-family: cursive;
+    border-top: 40px solid #FBC314;
+    color:  #FBC314;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px 0 rgba(0,0,0,.16);
+}
+
+.heading4{
+    width: 250px;
+    height: 180px;
+    text-align: center;
+    font-family: cursive;
+    border-top: 40px solid #1B8F8B;
+    color: #1B8F8B;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px 0 rgba(0,0,0,.16);
+}
+.div{
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    letter-spacing: 0.04em;
+    width: 250px;
+    max-height: 180px;
+    margin-top: 60px;
+}
+
+.div1{ 
+    text-align: center;
+    color: white;
+    background-color: #192a56;
+    width: 250px;
+    height: 180px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.div2{ 
+    text-align: center;
+    color: white;
+    background-color: #E1006A;
+    width: 250px;
+    height: 180px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.div3{ 
+    text-align: center;
+    color: white;
+    background-color: #FBC314;
+    width: 250px;
+    height: 180px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.div4{ 
+    text-align: center;
+    color: white;
+    background-color:  #1B8F8B;
+    width: 250px;
+    height: 180px;
+    padding: 20px;
+    border-radius: 5px;
+}
