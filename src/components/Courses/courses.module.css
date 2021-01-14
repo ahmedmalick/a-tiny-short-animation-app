@@ -16,59 +16,59 @@
 }
 
 .heading1{
-    width: 240px;
-    height: 180px;
     text-align: center;
     font-family: cursive;
     border-top: 40px solid #192a56;
     color: #192a56;
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 2px 3px 10px 0 rgba(0,0,0,.16);
+    box-shadow: 2px 3px 10px 0 rgba(0,0,0,.6);
+    width: 250px;
+    height: 180px;
 }
 
 .heading2{
-    width: 240px;
-    height: 180px;
     text-align: center;
     font-family: cursive;
     border-top: 40px solid #E1006A;
     color: #E1006A;
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 2px 3px 10px 0 rgba(0,0,0,.16);
+    box-shadow: 2px 3px 10px 0 rgba(0,0,0,.6);
+    width: 250px;
+    height: 180px;
 }
 
 .heading3{
-    width: 240px;
-    height: 180px;
     text-align: center;
     font-family: cursive;
     border-top: 40px solid #FBC314;
     color:  #FBC314;
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 2px 3px 10px 0 rgba(0,0,0,.16);
+    box-shadow: 2px 3px 10px 0 rgba(0,0,0,.6);
+    width: 250px;
+    height: 180px;
 }
 
 .heading4{
-    width: 240px;
-    height: 180px;
     text-align: center;
     font-family: cursive;
     border-top: 40px solid #1B8F8B;
     color: #1B8F8B;
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 2px 3px 10px 0 rgba(0,0,0,.16);
+    box-shadow: 2px 3px 10px 0 rgba(0,0,0,.6);
+    width: 250px;
+    height: 180px;
 }
 .div{
     display: inline-block;
     text-align: center;
     margin: 5px;
     letter-spacing: 0.04em;
-    width: 240px;
-    max-height: 180px;
+    width: 250px;
+    height: 400px; 
     margin-top: 60px;
 }
 
@@ -76,38 +76,40 @@
     text-align: center;
     color: white;
     background-color: #192a56;
-    width: 240px;
-    height: 180px;
     padding: 20px;
     border-radius: 5px;
+    box-shadow: 2px 3px 10px 0 rgba(0,0,0,.16);
 }
 
 .div2{ 
     text-align: center;
     color: white;
     background-color: #E1006A;
-    width: 240px;
-    height: 180px;
     padding: 20px;
     border-radius: 5px;
+    width: 250px;
+    height: 180px;
+    box-shadow: 2px 3px 10px 0 rgba(0,0,0,.16);
 }
 
 .div3{ 
     text-align: center;
     color: white;
     background-color: #FBC314;
-    width: 240px;
-    height: 180px;
     padding: 20px;
     border-radius: 5px;
+    width: 250px;
+    height: 180px;
+    box-shadow: 2px 3px 10px 0 rgba(0,0,0,.16);
 }
 
 .div4{ 
     text-align: center;
     color: white;
     background-color:  #1B8F8B;
-    width: 240px;
-    height: 180px;
     padding: 20px;
     border-radius: 5px;
+    width: 250px;
+    height: 180px;
+    box-shadow: 2px 3px 10px 0 rgba(0,0,0,.16);
 }
